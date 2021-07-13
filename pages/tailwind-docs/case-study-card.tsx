@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const CaseStudyCard = () => (
-  <div className='flex h-screen'>
+  <div className='flex h-screen p-2'>
     <div className='max-w-md m-auto overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl'>
       <div className='md:flex'>
         <div className='md:flex-shrink-0'>

@@ -3,7 +3,7 @@ const UserEmailForm = () => {
     event.preventDefault()
   }
   return (
-    <div className='flex h-screen bg-green-100'>
+    <div className='flex h-screen p-2 bg-green-100'>
       <div className='m-auto space-y-3'>
         <div className='max-w-full px-6 py-5 mx-auto space-y-1 overflow-hidden transition duration-500 transform border-2 border-green-500 border-opacity-25 rounded-lg cursor-pointer select-none hover:border-2 group w-96 hover:bg-green-100 hover:shadow-lg motion-reduce:transform-none hover:scale-105 click:bg-green-700'>
           <p className='text-lg font-semibold text-green-600'>
