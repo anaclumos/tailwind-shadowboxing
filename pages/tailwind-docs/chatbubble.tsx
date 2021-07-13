@@ -1,11 +1,12 @@
+import Image from 'next/image'
+import Favicon from '../../public/favicon.ico'
+
 const chatbubble = () => (
   <div className='p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4'>
-    <div className='flex-shrink-0'>
-      <img
-        className='h-12 w-12'
-        src='/favicon.ico'
-        alt='ChitChat Logo'
-      />
+    <div className='flex-shrink-0 relative'>
+      <div className='h-12 w-12'>
+        <Image layout='fill' src={Favicon} alt='Favicon' />
+      </div>
     </div>
     <div>
       <div>
