@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 const CaseStudyCard = () => (
   <div className='flex h-screen'>
-    <div className='max-w-md m-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl border-2'>
+    <div className='max-w-md m-auto overflow-hidden bg-white border-2 shadow-md rounded-xl md:max-w-2xl'>
       <div className='md:flex'>
         <div className='md:flex-shrink-0'>
-          <div className='h-48 object-cover md:h-full md:w-48 relative'>
+          <div className='relative object-cover h-48 md:h-full md:w-48'>
             <Image
               src='https://cataas.com/cat'
               alt='Man looking at item at a store'
@@ -15,12 +15,12 @@ const CaseStudyCard = () => (
           </div>
         </div>
         <div className='p-8'>
-          <div className='uppercase tracking-wide text-sm text-indigo-500 font-semibold'>
+          <div className='text-sm font-semibold tracking-wide text-indigo-500 uppercase'>
             Case study
           </div>
           <a
             href='#'
-            className='block mt-1 text-lg leading-tight font-medium text-black hover:underline'
+            className='block mt-1 text-lg font-medium leading-tight text-black hover:underline'
           >
             Finding customers for your new business
           </a>

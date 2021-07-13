@@ -3,9 +3,9 @@ import Favicon from '../../public/favicon.ico'
 
 const chatbubble = () => (
   <div className='flex h-screen'>
-    <div className='p-6 max-w-sm m-auto bg-white rounded-xl shadow-md flex items-center space-x-4 border-2'>
-      <div className='flex-shrink-0 relative'>
-        <div className='h-12 w-12'>
+    <div className='flex items-center max-w-sm p-6 m-auto space-x-4 bg-white border-2 shadow-md rounded-xl'>
+      <div className='relative flex-shrink-0'>
+        <div className='w-12 h-12'>
           <Image
             layout='fill'
             src={Favicon}
