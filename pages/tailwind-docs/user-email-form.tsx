@@ -15,7 +15,7 @@ const UserEmailForm = () => {
           </p>
         </div>
         <form
-          className='flex w-full max-w-sm m-auto mx-auto space-x-3'
+          className='flex w-full m-auto mx-auto space-x-3'
           onSubmit={signupUser}
         >
           <input
